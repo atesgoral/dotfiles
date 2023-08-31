@@ -1,4 +1,3 @@
-
 alias gcm='git checkout main'
 alias gfom='git fetch origin main'
 alias grom='git rebase origin/main'
