@@ -19,6 +19,7 @@ alias gp='git push'
 alias gpf='git push --force-with-lease'
 
 alias gcanpf='gcan && gpf'
+alias heh='gcanpf'
 
 alias gd='git diff'
 alias gds='git diff --staged'
