@@ -3,13 +3,21 @@ alias gfom='git fetch origin main'
 alias gpom='git pull origin main'
 alias grom='git rebase origin/main'
 
+unalias gcam 2>/dev/null
+unset -f gcam 2>/dev/null
+
 gcam() {
   git commit -am "$1"
 }
+
+unalias gcamp 2>/dev/null
+unset -f gcamp 2>/dev/null
+
 gcamp() {
   git commit -am "$1"
   git push
 }
+
 alias gca='git commit --amend'
 alias gcan='git commit -a --amend --no-edit'
 
